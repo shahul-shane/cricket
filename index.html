@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorer</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-------NavBar-->
+    <nav>
+        <h1>New Match</h1>
+    </nav>
+    <span class="examp">
+        <div class="container">
+        <form action="#">
+        <p>Teams</p>
+        <div class="form-row">
+            <div class="input-data">
+                <input type="text" name="Team1" required>
+                <div class="underline"></div>
+                    <label for="">Team 1</label>
+            </div>
+            <div class="input-data">
+                <input type="text" name="Team2" required>
+                <div class="underline"></div>
+                    <label for="">Team 2</label>
+            </div>
+        </div>
+        <div class="toss">
+            <p>Toss won by...</p>
+            <input type="radio" id="team1" name="team" value="Team1">
+            <label for="team1">Team 1</label>
+            <input type="radio" id="team2" name="team" value="Team2">
+            <label for="team2">Team 2</label>
+        </div>
+        <div class="opting">
+            <p>Opted to? </p>
+                <input type="radio" id="bat" name="choose" value="Bat">
+                <label for="bat">Bat</label>
+                <input type="radio" id="bowl" name="choose" value="Bowl">
+                <label for="bowl">Bowl</label>
+        </div>
+            <div class="form-row">
+                <div class="input-data">
+                    <input type="text"  required>
+                    <div class="underline"></div>
+                    <label for="overs">Overs?</label>
+                </div>
+            </div>
+        <button type="submit" class="start-match"> Start Match</button>
+    </form>    
+    </div>
+    </span>
+
+</body>
+</html>
