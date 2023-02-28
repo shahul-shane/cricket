@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+    font-family: 'Yeon Sung', cursive;
+ }
+    
+    body{
+        height: 100%;
+        background-color: #8173ff52;
+       
+    }
+    .menu-container{
+        background: rgb(255, 255, 255);     
+        height: 50px;
+    }
+    
+    .menu-container ul{
+        list-style-type: none;
+        display:flex;
+        justify-content: flex-end;
+    }
+    
+    .menu-container li{
+        width: 120px;
+        height: 25px;
+        color: rgb(0, 0, 0);
+        margin: 14px 40px 0 20px;
+        font-size: 17px;
+        font-weight: bold;
+        border-radius: 5px;
+        font-family: 'Caveat', cursive;
+        font-family: 'Yeon Sung', cursive;
+        text-align: center;
+        
+    }
+    .menu-container li img{
+        top: 3px;
+        cursor: pointer;
+    }
+    .menu-container li a{
+        top: -5px;
+        position: relative;
+    }
+    #underline{
+        text-decoration: none;
+    }
+.team-input{
+    margin: 10% 0 0 10%;
+
+}
+    .team-name{ 
+        font-size: 35px;
+    }
+
+    .teams input
+    {
+        width: 200px;
+        height: 25px;
+        margin-top: 1%;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 17px;
+        border-radius: 7px;
+        box-shadow: 0px 1px 2px 1px #0c0c0c52;
+    }
+    .players{
+        margin: -9% 0 0 35%;
+    }
+    .players input{
+        width: 200px;
+        height: 25px;
+        margin-top: 1%;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 17px;
+        border-radius: 7px;
+        box-shadow: 0px 1px 2px 1px #0c0c0c52; 
+    }
+    .players1{
+        margin: -27.5% 0 0 60%;
+    }
+
+    .players1 input{
+        width: 200px;
+        height: 25px;
+        margin-top: 1.6%;
+        border: none;
+        outline: none;
+        text-align: center;
+        font-size: 17px;
+        border-radius: 7px;
+        box-shadow: 0px 1px 2px 1px #0c0c0c52; 
+    }
+
+    .submit{
+        width: 120px;
+        height: 30px;
+        border: none;
+        outline: none;
+        box-shadow: 0px 1px 2px 1px #0c0c0c52;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+    .button{
+        margin: -15% 0 0 80%; 
+    }

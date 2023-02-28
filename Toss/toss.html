@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toss</title>
+    <link rel="stylesheet" href="./toss.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+    <form action="#">
+    <div class="menu-container">
+        <ul>
+            <li><a href="../Boards/first_page.html" id="home"><img src="../Assets/home.png" alt="" width="25" height="25"> Home</a></li>
+            <li> <a href="./toss.html " id="new_match"><img src="../Assets/new_match.png" alt="" width="25px" height="25px">New Match</a></li>
+            <li><a href="../Boards/history.html" id="history"> <img src="../Assets/cricket-ground.png" alt="" width="25px" height="25px">Hisory</a></li>
+            <li><a href="#" id="logout"><img src="../Assets/logout.png" alt="" width="25px" height="25px"> Log Out</a></li>
+        </ul>
+    </div>
+
+    <h2 class="header">It's time </h2>
+    <h2 class="header1">for toss<img src="../Assets/coin-toss.png" width="50px" height="50px"> </h2> 
+    <div class="container">
+        <div class="coin">
+            <div class="heads">
+                <img src="../Assets/head.png" alt="" srcset="" width="120" height="120">
+            </div>
+            <div class="tails">
+                <img src="../Assets/481px-Gold_coin_icon.png" alt="" srcset="" width="120" height="120">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="flip-button">
+                Toss
+            </button>
+            <button id="reset-button">
+                Reset
+            </button>`
+        </div>
+    </div>
+    <div class="toss-winner">
+        <p class="toss-header">Toss won by</p>
+        <div class="won-by-team">
+            <select name="select" id="won-team" required>
+                <option value="team1" class="t1" name="team1toss">Team 1</option>
+                <option value="team2" class="t1" name="team2toss">Team 2</option>
+            </select>
+        </div>
+        <p class="choosed-to">Choosed to</p>
+        <div class="choosing">
+            <input type="button" value="Bat" name="bat">
+            <input type="button" value="Bowl" name="bowl">
+</div>
+    </div>
+    <div class="overs">
+        <input type="text" placeholder="Enter Overs" name="overs" required><br>
+        </div>
+        <div class="sub">
+            <input type="submit" value="Start Match" name="match" class="submit">
+            </div>
+    </form>
+    <script src="./toss.js"></script>
+</body>
+</html>
